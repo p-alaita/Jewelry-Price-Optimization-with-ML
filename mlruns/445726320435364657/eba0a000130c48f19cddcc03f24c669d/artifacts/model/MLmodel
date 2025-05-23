@@ -1,0 +1,45 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.9.13
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.0.2
+is_signature_from_type_hint: false
+mlflow_version: 2.22.0
+model_size_bytes: 319004
+model_uuid: 10800b2c5f574ee68b130ee89029e0dd
+prompts: null
+run_id: eba0a000130c48f19cddcc03f24c669d
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "datetime", "name": "Order datetime", "required": true}, {"type":
+    "string", "name": "Category alias", "required": true}, {"type": "double", "name":
+    "Brand ID", "required": true}, {"type": "integer", "name": "Product gender", "required":
+    true}, {"type": "integer", "name": "Main Color", "required": true}, {"type": "integer",
+    "name": "Main metal", "required": true}, {"type": "integer", "name": "Main gem",
+    "required": true}, {"type": "integer", "name": "Order date", "required": true},
+    {"type": "string", "name": "category", "required": true}, {"type": "integer",
+    "name": "price_tier", "required": true}, {"type": "long", "name": "order_month",
+    "required": true}, {"type": "long", "name": "order_weekday", "required": true},
+    {"type": "long", "name": "order_year", "required": true}, {"type": "integer",
+    "name": "is_weekend", "required": true}, {"type": "long", "name": "days_since_first_order",
+    "required": true}, {"type": "double", "name": "log_price_usd", "required": true},
+    {"type": "integer", "name": "is_repeat_customer", "required": true}, {"type":
+    "long", "name": "is_holiday", "required": true}]'
+  outputs: '[{"type": "float", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-05-23 02:14:28.734160'

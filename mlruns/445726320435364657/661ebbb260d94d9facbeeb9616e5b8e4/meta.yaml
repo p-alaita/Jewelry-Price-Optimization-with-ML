@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/hp/Desktop/Jewelry_Price_Optimization/notebooks/mlruns/445726320435364657/661ebbb260d94d9facbeeb9616e5b8e4/artifacts
+end_time: 1747993082647
+entry_point_name: ''
+experiment_id: '445726320435364657'
+lifecycle_stage: active
+run_id: 661ebbb260d94d9facbeeb9616e5b8e4
+run_name: RandomForest
+run_uuid: 661ebbb260d94d9facbeeb9616e5b8e4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747993042448
+status: 3
+tags: []
+user_id: hp

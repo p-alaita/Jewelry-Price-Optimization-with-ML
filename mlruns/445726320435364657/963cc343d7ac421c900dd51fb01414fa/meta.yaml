@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/hp/Desktop/Jewelry_Price_Optimization/notebooks/mlruns/445726320435364657/963cc343d7ac421c900dd51fb01414fa/artifacts
+end_time: 1747966394409
+entry_point_name: ''
+experiment_id: '445726320435364657'
+lifecycle_stage: active
+run_id: 963cc343d7ac421c900dd51fb01414fa
+run_name: LinearRegression
+run_uuid: 963cc343d7ac421c900dd51fb01414fa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747966384590
+status: 3
+tags: []
+user_id: hp
